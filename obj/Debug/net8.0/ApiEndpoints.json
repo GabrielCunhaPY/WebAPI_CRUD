@@ -1,0 +1,126 @@
+[
+  {
+    "ContainingType": "WebAPI_Estudo.Controllers.FuncionarioController",
+    "Method": "GetFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI_Estudo.Models.ServicesResponse\u00601[[System.Collections.Generic.List\u00601[[WebAPI_Estudo.Models.FuncionarioModel, WebAPI_Estudo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_Estudo.Controllers.FuncionarioController",
+    "Method": "CreateFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoFuncionario",
+        "Type": "WebAPI_Estudo.Models.FuncionarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI_Estudo.Models.ServicesResponse\u00601[[System.Collections.Generic.List\u00601[[WebAPI_Estudo.Models.FuncionarioModel, WebAPI_Estudo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_Estudo.Controllers.FuncionarioController",
+    "Method": "UpdateFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editadoFuncionario",
+        "Type": "WebAPI_Estudo.Models.FuncionarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI_Estudo.Models.ServicesResponse\u00601[[System.Collections.Generic.List\u00601[[WebAPI_Estudo.Models.FuncionarioModel, WebAPI_Estudo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_Estudo.Controllers.FuncionarioController",
+    "Method": "GetFuncionarioByID",
+    "RelativePath": "api/Funcionario/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI_Estudo.Models.ServicesResponse\u00601[[WebAPI_Estudo.Models.FuncionarioModel, WebAPI_Estudo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPI_Estudo.Controllers.FuncionarioController",
+    "Method": "InativaFuncionario",
+    "RelativePath": "api/Funcionario/InativaFuncionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI_Estudo.Models.ServicesResponse\u00601[[System.Collections.Generic.List\u00601[[WebAPI_Estudo.Models.FuncionarioModel, WebAPI_Estudo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
